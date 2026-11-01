@@ -1,0 +1,26 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+.cache/
+.env
+.env.*
+!.env.example
+.DS_Store
+/datasets/raw/
+/datasets/prepared/
+/runs/
+/code/example_code/output/
+.ipynb_checkpoints/
+.venv-causal-circuit/
+
+# Research data and model artifacts
+/datasets/
+/models/
+/checkpoints/
+*.safetensors
+*.ckpt
+*.pt
+*.pth
+*.bin
+*.gguf
